@@ -1,0 +1,28 @@
+.navbar {
+    box-shadow: 1px 1px 1px gray;
+  }
+
+  a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: greenyellow; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+@media only screen and ( max-width: 767px) {
+  .navbar
+{
+  display:block;
+  text-align:center;
+}
+
+}

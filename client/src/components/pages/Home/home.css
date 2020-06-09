@@ -1,0 +1,178 @@
+body {
+  background-color: white !important;
+
+}
+
+#jumbohome {
+  background-image: url(../../../assets/images/maskshop2.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 20px !important;
+  box-shadow: 2px 2px 2px gray;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+#jumbo-box {
+    background-color: rgb(51, 51, 51);
+    position: relative;
+    max-height: 20% !important;
+    max-width: 60% !important;
+    color: white;
+    padding: 15px;
+}
+
+#card {
+  white-space: nowrap;
+  min-width: 300px;
+  max-width: 800px;
+  box-shadow: 2px 2px 2px 2px gray;
+
+  /* padding: 1rem; */
+}
+
+#pop-cards {
+  border-color: lightgray !important;
+  /* background-color: white; */
+  overflow-x: scroll;
+  white-space: nowrap;
+  /* /* min-width: 1000px; */
+  max-width: 1100px !important;
+  padding: 1rem;
+  margin: 0px 10px 20px 10px !important;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.flex-nowrap {
+  margin-left: 5px !important;
+}
+
+#pop-title {
+  margin-top: 40px;
+}
+
+#maps-holder {
+  
+  border-color: gray !important;
+  box-shadow: 1px 1px 1px 1px gray !important;
+
+  width: 80% !important;
+  margin-bottom: 30px;
+}
+
+#list-title {
+    margin-top: 20px;
+
+  margin-bottom: 30px !important;
+}
+
+#list-box {
+  overflow-y: scroll;
+  white-space: nowrap;
+  max-height: 530px !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 5px !important;
+  border-color: gray !important;
+  box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+#card-image {
+  max-height: 168px;
+  min-height: 168px;
+  max-width: 298;
+}
+
+btn {
+  background-color: greenyellow !important;
+  border-radius: 5px !important;
+}
+
+.jHNGjT {
+  width: 98% !important;
+  height: 500px !important;
+  text-align: center !important;
+  margin-left: 10px;
+}
+
+#list {
+  margin-bottom: 5px;
+}
+
+#list-image {
+  max-height: 138px;
+  max-width: 245;
+}
+
+#maps-holder {
+  background-color: white;
+  padding: 15px 10px 15px 10px !important;
+  /* margin: 0px 15px 0px 15px; */
+  border-radius: 5px;
+}
+
+#header-text {
+  margin-top: 50px;
+}
+
+#pop-row {
+    margin: 0px !important;
+}
+
+#biz-btn {
+    margin: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h5, h2 {
+    text-align: center;
+  }
+
+  #maps-holder {
+    width: 100% !important;
+    border-radius: 0px;
+    
+  }
+
+  .row {
+    align-content: center;
+  }
+
+  #search-bar {
+    width: 100% !important
+  }
+
+  /* form {
+    padding: 0px !important
+  } */
+
+  .jHNGjT {
+  
+    height: 300px !important;
+  
+  }
+
+  #pop-cards {
+    
+    overflow-x: auto !important;
+  white-space: nowrap !important;
+  /* /* min-width: 1000px; */
+  max-width: 500px !important;
+  padding: 1rem;
+  -webkit-overflow-scrolling: touch;
+  }
+
+  #card {
+
+  }
+
+
+}
